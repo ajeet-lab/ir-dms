@@ -37,8 +37,8 @@ var myChart = new Chart(ctx, {
 });
 
 
-var ctx = document.getElementById('myChart1').getContext('2d');
-var myChart = new Chart(ctx, {
+var ctxx = document.getElementById('myChart1').getContext('2d');
+var myChart1 = new Chart(ctxx, {
     type: 'line',
     data: {
         labels: ['Jan', 'Feb', 'Mar', 'April', 'May', 'Jun'],
